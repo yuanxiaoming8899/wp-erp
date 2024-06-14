@@ -1,51 +1,49 @@
-# WP ERP
-
-An open-source ERP (Enterprise Resource Planning) solution for WordPress. View [documentation](https://wperp.com/documentation/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=Home+Page)
-
-## Core Components
-
--   HRM - Human Resource Management
--   CRM - Customer Relationship Management
--   Accounting - Double Entry Accounting
-
-## Other Components
-
--   [Project Management](https://wedevs.com/wp-project-manager-pro/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=WP+Project+Manager)
-
-## Available Add-ons
-
--   [Custom Field Builder](https://wperp.com/downloads/custom-field-builder/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=custom+field+builder)
--   [Employee Recruitment](https://wperp.com/downloads/recruitment/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=recruitment)
--   [Document Manager](https://wperp.com/downloads/document-manager/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=document+manager)
--   [Payroll](https://wperp.com/downloads/payroll/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=payroll)
--   [Attendance Management](https://wperp.com/downloads/attendance/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=attendance)
--   [Payment Gateway](https://wperp.com/downloads/payment-gateway/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=payment+gateway)
--   [HR Frontend](https://wperp.com/downloads/hr-frontend/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=hr-frontend)
--   [WooCommerce Integration](https://wperp.com/downloads/woocommerce/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=woocommerce)
--   [Email Campaign](https://wperp.com/downloads/wp-erp-email-campaign/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=wp+erp+email+campaign)
--   [Deals](https://wperp.com/downloads/deals/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=deals)
--   [Workflow](https://wperp.com/downloads/workflow/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=workflow)
--   [Reimbursement](https://wperp.com/downloads/reimbursement/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=reimbursement)
--   [Inventory](https://wperp.com/downloads/inventory/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=inventory)
--   [SMS Notification](https://wperp.com/downloads/sms-notification/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=sms+notification)
--   [Asset Manager](https://wperp.com/downloads/asset-manager/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=asset+manager)
--   [Gravity Forms](https://wperp.com/downloads/crm-gravity-forms/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=crm+gravity+forms)
--   [Salesforce Contacts Sync](https://wperp.com/downloads/salesforce-contact-sync/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=salesforce+contact+sync)
--   [Hubspot Contacts Sync](https://wperp.com/downloads/hubspot-contacts-sync/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=hubspot+contacts+sync)
--   [Mailchimp Contacts Sync](https://wperp.com/downloads/mailchimp-contacts-sync/?utm_medium=referral&utm_source=github&utm_campaign=WP+ERP+Readme&utm_content=mailchimp+contacts+sync)
-
-## Minimum Requirement
-
--   PHP 5.6
--   WordPress 4.4+
-
-## Installation
-
--   Clone the repository inside `/wp-content/plugins/`
--   CD into folder `cd wp-erp` and run `composer install` and then `composer dump-autoload -o`
--   Lastly run `npm install` and then `npm run build`
--   Activate the plugin
-
-## Who's behind?
-
-An open-source project by [weDevs](https://wedevs.com/?utm_source=github&utm_medium=credit&utm_term=opensource&utm_content=wperp&utm_campaign=product), contributed by a bunch of [people](https://github.com/wp-erp/wp-erp/graphs/contributors).
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可视ERP</font></font></h1><a id="user-content-wp-erp" class="anchor" aria-label="永久链接：WP ERP" href="#wp-erp"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">适用于 WordPress 的开源 ERP（企业资源规划）解决方案。查看</font></font><a href="https://wperp.com/documentation/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=Home+Page" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档</font></font></a></p>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">核心组件</font></font></h2><a id="user-content-core-components" class="anchor" aria-label="永久链接：核心组件" href="#core-components"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">HRM-人力资源管理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CRM——客户关系管理</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">会计 - 复式记账</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">其他组件</font></font></h2><a id="user-content-other-components" class="anchor" aria-label="永久链接：其他组件" href="#other-components"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://wedevs.com/wp-project-manager-pro/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=WP+Project+Manager" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">项目管理</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">可用附加组件</font></font></h2><a id="user-content-available-add-ons" class="anchor" aria-label="固定链接：可用附加组件" href="#available-add-ons"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://wperp.com/downloads/custom-field-builder/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=custom+field+builder" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义字段生成器</font></font></a></li>
+<li><a href="https://wperp.com/downloads/recruitment/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=recruitment" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">员工招聘</font></font></a></li>
+<li><a href="https://wperp.com/downloads/document-manager/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=document+manager" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">文档管理器</font></font></a></li>
+<li><a href="https://wperp.com/downloads/payroll/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=payroll" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工资单</font></font></a></li>
+<li><a href="https://wperp.com/downloads/attendance/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=attendance" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">考勤管理</font></font></a></li>
+<li><a href="https://wperp.com/downloads/payment-gateway/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=payment+gateway" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支付网关</font></font></a></li>
+<li><a href="https://wperp.com/downloads/hr-frontend/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=hr-frontend" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人力资源前端</font></font></a></li>
+<li><a href="https://wperp.com/downloads/woocommerce/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=woocommerce" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WooCommerce 集成</font></font></a></li>
+<li><a href="https://wperp.com/downloads/wp-erp-email-campaign/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=wp+erp+email+campaign" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">电子邮件活动</font></font></a></li>
+<li><a href="https://wperp.com/downloads/deals/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=deals" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">交易</font></font></a></li>
+<li><a href="https://wperp.com/downloads/workflow/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=workflow" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">工作流</font></font></a></li>
+<li><a href="https://wperp.com/downloads/reimbursement/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=reimbursement" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">报销</font></font></a></li>
+<li><a href="https://wperp.com/downloads/inventory/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=inventory" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">存货</font></font></a></li>
+<li><a href="https://wperp.com/downloads/sms-notification/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=sms+notification" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">短信通知</font></font></a></li>
+<li><a href="https://wperp.com/downloads/asset-manager/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=asset+manager" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">资产管理器</font></font></a></li>
+<li><a href="https://wperp.com/downloads/crm-gravity-forms/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=crm+gravity+forms" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">重力形式</font></font></a></li>
+<li><a href="https://wperp.com/downloads/salesforce-contact-sync/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=salesforce+contact+sync" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Salesforce 联系人同步</font></font></a></li>
+<li><a href="https://wperp.com/downloads/hubspot-contacts-sync/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=hubspot+contacts+sync" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Hubspot 联系人同步</font></font></a></li>
+<li><a href="https://wperp.com/downloads/mailchimp-contacts-sync/?utm_medium=referral&amp;utm_source=github&amp;utm_campaign=WP+ERP+Readme&amp;utm_content=mailchimp+contacts+sync" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Mailchimp 联系人同步</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最低要求</font></font></h2><a id="user-content-minimum-requirement" class="anchor" aria-label="永久链接：最低要求" href="#minimum-requirement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PHP 5.6</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">WordPress 4.4+</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="固定链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">克隆里面的存储库</font></font><code>/wp-content/plugins/</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CD 进入文件夹</font></font><code>cd wp-erp</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并运行</font></font><code>composer install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后</font></font><code>composer dump-autoload -o</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最后运行</font></font><code>npm install</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">然后</font></font><code>npm run build</code></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">激活插件</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">后面是谁？</font></font></h2><a id="user-content-whos-behind" class="anchor" aria-label="永久链接：幕后黑手是谁？" href="#whos-behind"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><a href="https://wedevs.com/?utm_source=github&amp;utm_medium=credit&amp;utm_term=opensource&amp;utm_content=wperp&amp;utm_campaign=product" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">由weDevs</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">发起的一个开源项目</font><font style="vertical-align: inherit;">，由许多</font></font><a href="https://github.com/wp-erp/wp-erp/graphs/contributors"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">人</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">做出贡献。</font></font></p>
+</article></div>
